@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:action="@{/putPackage}" method="post">
+    设置pid：<input type="text" name="pid"/><br/>
+    设置库存：<input type="text" name="count"/><br/>
+    <input type="submit" value="提交">
+</form>
+<form action="/kill" method="get">
+    秒杀的pid：<input type="text" name="pid" value="1000"><br/>
+    <input type="submit" value="秒杀点我"/>
+</form>
+</body>
+</html>

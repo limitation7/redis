@@ -1,0 +1,13 @@
+spring:
+  redis:
+    host: 43.143.49.15
+    port: 6379
+    database: 0
+    password: WOSHIDASHUAIBI!
+    lettuce:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+
